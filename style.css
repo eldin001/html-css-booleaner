@@ -2,9 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -21,6 +18,7 @@ figure {
 .photo-caption {
     font-size: 12px;
 }
+
 .logo {
     width: 200px;
     position: absolute;
@@ -79,6 +77,22 @@ th {
     color: rgb(148, 148, 148);
 }
 
+.monitor-img, .graph-img {
+    width: 300px;
+    height: 200px;
+    margin: 2px;
+}
+
 .monitor-img {
-    
+    background-image: url(img/monitor.jpg);
+}
+
+.graph-img {
+    background-image: url(img/graph.jpg);
+}
+
+.img-lorem {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
 }
